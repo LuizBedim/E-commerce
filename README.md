@@ -5,3 +5,8 @@ Comece instalanfo o arquivo requiriments.txt, onde contém o framework e todas a
 ```
 pip install -r requirements.txt
 ```
+
+<h1> Utilização do docker (opcional)</h1>
+```
+docker-compose up --build
+```
