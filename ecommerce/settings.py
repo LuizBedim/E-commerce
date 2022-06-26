@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # apps de terceiros
     'debug_toolbar',
+    'widget_tweaks',
     # my apps
     'users.apps.UsersConfig',
     'pages.apps.PagesConfig',

@@ -1,3 +1,4 @@
+# parte-1
 django
 django-autoslug
 django-debug-toolbar
@@ -9,3 +10,6 @@ psycopg2
 pytest
 pytest-cov
 pytest-django
+
+# parte-2
+django-widget-tweaks

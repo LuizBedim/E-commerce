@@ -113,7 +113,7 @@ def test_cart_iter(cart, session):
     products = [p1, p2, p3]
     quantities = [1, 2, 3]
 
-    for product, quantity, item in zip[products, quantities, cart]:
+    for product, quantity, item in zip(products, quantities, cart):
         assert product.price == item['price']
         assert product.price * quantity == item['total_price']
         assert product == item['product']
